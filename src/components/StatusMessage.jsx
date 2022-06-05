@@ -6,7 +6,7 @@ const StatusMessage = ({ winner, current }) => {
     <div className="status-message">
       {winner && (
         <>
-          winner is{' '}
+          Winner is{' '}
           <span className={winner === 'X' ? 'text-green' : 'text-orange'}>
             {winner}
           </span>

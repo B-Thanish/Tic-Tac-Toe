@@ -62,9 +62,9 @@ const App = () => {
         onClick={onNewGame}
         className={`btn-reset ${winner ? 'active' : ''}`}
       >
-        Start new game
+        Start New Game
       </button>
-      <h2 style={{ fontWeight: 'normal' }}>Current game history</h2>
+      <h2 style={{ fontWeight: 'normal' }}>Current Game History</h2>
       <History history={history} moveTo={moveTo} currentMove={currentMove} />
       <div className="bg-balls" />
     </div>
